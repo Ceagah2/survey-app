@@ -1,0 +1,83 @@
+[
+  {
+    "id": 1,
+    "title": "Foi receptiva ?",
+    "answers": [
+        "Sim",
+        "Não",
+        "Pouco"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Você foi bem atendido ?",
+    "answers": [
+        "Sim",
+        "Não",
+        "Pouco"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Houve demora no seu atendimento ?",
+    "answers": [
+        "Sim",
+        "Não",
+        "Pouco"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Você entendeu o que foi dito ?",
+    "answers": [
+      "Sim",
+      "Não",
+      "Pouco"
+      ]
+  },
+  {
+    "id": 5,
+    "title": "Ele/Ela foi bem receptivo ?",
+    "answers": [
+      "Sim",
+      "Não",
+      "Pouco"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Houve demora no seu atendimento ?",
+    "answers": [
+        "Sim",
+        "Não",
+        "Pouco"
+      ]
+  },
+  {
+    "id": 7,
+    "title": "O café estava gostoso ?",
+    "answers": [
+      "Sim",
+      "Não",
+      "Pouco"
+      ]
+  },
+  {
+    "id": 8,
+    "title": "Você gostou do suco ?",
+    "answers": [
+      "Sim",
+      "Não",
+      "Pouco"
+      ]
+  },
+  {
+    "id": 9,
+    "title": "Você gostou do biscoito ?",
+    "answers": [
+      "Sim",
+      "Não",
+      "Pouco"
+      ]
+  }
+]

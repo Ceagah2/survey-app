@@ -1,0 +1,87 @@
+[
+  {
+    "id": "badAnswer1",
+    "text": "O café estava frio ?",
+    "answers": [
+      {
+        "answer1": "Sim",
+        "answer2": "Não",
+        "answer3": "Um pouco"
+      }
+    ]
+  },
+  {
+    "id": "badAnswer2",
+    "text": "O café estava forte ou fraco ?",
+    "answers": [
+      {
+        "answer1": "Forte",
+        "answer2": "Fraco"
+      }
+    ]
+  },
+  {
+    "id": "badAnswer3",
+    "text": "O suco estava fresco ?",
+    "answers": [
+      {
+        "answer1": "Sim",
+        "answer2": "Não",
+        "answer3": "Um pouco"
+      }
+    ]
+  },
+  {
+    "id": "badAnswer4",
+    "text": "Você gostou dos sabores ?",
+    "answers": [
+      {
+        "answer1": "Sim",
+        "answer2": "Não"
+      }
+    ]
+  },
+  {
+    "id": "badAnswer5",
+    "text": "Qual sabor você mais gosta ?",
+    "answers": [
+      {
+        "answer1": "Morango",
+        "answer2": "Laranja",
+        "answer3": "Maracujá",
+        "answer4": "Uva",
+        "answer5": "Manga"
+      }
+    ]
+  },
+  {
+    "id": "badAnswer6",
+    "text": "Gosta de algum tipo de biscoito salgado ?",
+    "answers": [
+      {
+        "answer1": "Sim",
+        "answer2": "Não"
+      }
+    ]
+  },
+  {
+    "id": "badAnswer7",
+    "text": "Você gostaria de ter bolos diariamente, além das sextas ?",
+    "answers": [
+      {
+        "answer1": "Sim",
+        "answer2": "Não"
+      }
+    ]
+  },
+  {
+    "id": "badAnswer8",
+    "text": "Você gostaria de pipoca diariamente ?",
+    "answers": [
+      {
+        "answer1": "Sim",
+        "answer2": "Não"
+      }
+    ]
+  }
+]
