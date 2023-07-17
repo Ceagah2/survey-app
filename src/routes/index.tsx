@@ -1,11 +1,11 @@
-import React from "react";
-import { NavigationContainer } from "@react-navigation/native";
-import { createNativeStackNavigator } from "@react-navigation/native-stack";
+import { NavigationContainer } from '@react-navigation/native';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import React from 'react';
 
-import HomeScreen from "../pages/Home";
-import ReportScreen from "../pages/Reports";
-import BadAnswers from "../pages/BadAnswers";
-import GoodAnswers from "../pages/GoodAnswers";
+import BadAnswers from '../screens/BadAnswers';
+import GoodAnswers from '../screens/GoodAnswers';
+import HomeScreen from '../screens/Home';
+import ReportScreen from '../screens/Reports';
 
 const Routes = () => {
   const Stack = createNativeStackNavigator();
