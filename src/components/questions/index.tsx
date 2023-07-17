@@ -1,12 +1,10 @@
-import React from "react";
-import { Text } from "react-native";
-import Data from "../../data/badAnswers/index.json";
+import React from 'react';
 import {
-  Container,
   AnswerContainer,
   AnswerTitle,
+  Container,
   QuestionTitle,
-} from "./styles";
+} from './styles';
 
 interface DataProps {
   title: string;

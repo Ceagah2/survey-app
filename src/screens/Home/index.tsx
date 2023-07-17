@@ -2,10 +2,9 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import { useNavigation } from '@react-navigation/native';
 import React, { useEffect, useState } from 'react';
 import { Alert } from 'react-native';
-import Button from '../../components/button';
-
 import Rubackinho from '../../assets/Rubackinho_01.png';
 import Logo from '../../assets/logo.png';
+import Button from '../../components/button';
 import { colors } from '../../styles/themes';
 import {
   ButtonContainer,
@@ -64,7 +63,18 @@ const Home = () => {
     });
     Alert.alert(
       'Obrigada !',
-      'Sua opinião é muito importante para nós ! \n\n Obrigado por opinar!',
+      'Gostaria de responder algumas rápidas perguntas para melhorar o atendimento?',
+      [
+        {
+          text: 'Sim',
+          onPress: () => navigation.navigate('BadAnswers'),
+        },
+        {
+          text: 'Não',
+          onPress: () => console.log('Cancel Pressed'),
+          style: 'cancel',
+        },
+      ],
     );
   };
 
@@ -84,7 +94,18 @@ const Home = () => {
     });
     Alert.alert(
       'Obrigada !',
-      'Sua opinião é muito importante para nós ! \n\n Obrigado por opinar!',
+      'Gostaria de responder algumas rápidas perguntas para melhorar o atendimento?',
+      [
+        {
+          text: 'Sim',
+          onPress: () => navigation.navigate('BadAnswers'),
+        },
+        {
+          text: 'Não',
+          onPress: () => console.log('Cancel Pressed'),
+          style: 'cancel',
+        },
+      ],
     );
   };
 
@@ -104,7 +125,18 @@ const Home = () => {
     });
     Alert.alert(
       'Obrigada !',
-      'Sua opinião é muito importante para nós ! \n\n Obrigado por opinar!',
+      'Gostaria de responder algumas rápidas perguntas para melhorar o atendimento?',
+      [
+        {
+          text: 'Sim',
+          onPress: () => navigation.navigate('GoodAnswers'),
+        },
+        {
+          text: 'Não',
+          onPress: () => console.log('Cancel Pressed'),
+          style: 'cancel',
+        },
+      ],
     );
   };
 
